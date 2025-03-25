@@ -4,13 +4,27 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * A class that represents a N-ary Tree.
+ *
+ * @param <E> - the type of elements in this tree
+ */
+
 public class NaryTree<E> implements INaryTree<E> {
     private final INaryTreeNode<E> root;
 
+    /**
+     * Constructs by default for the NaryTree
+     */
     public NaryTree() {
         this(null);
     }
 
+    /**
+     * Constructs a NaryTree with a root element.
+     *
+     * @param root - the root element.
+     */
     public NaryTree(E root) {
         this.root = new NaryTreeNode<>(root);
     }

@@ -5,7 +5,7 @@
 
     <groupId>com.gabriel</groupId>
     <artifactId>treenode</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <name>TreeNode</name>
     <description>A package to use nary tree node structure.</description>
     <properties>
